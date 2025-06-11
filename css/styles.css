@@ -1,0 +1,149 @@
+/* css/styles.css */
+html, body 
+{
+  height: 100%;      /* 讓 html, body 都能撐滿高度 */
+  margin: 0;         /* 把預設 margin 清掉 */
+}
+
+body 
+{
+  background-color: #333;
+  color: #fff;
+  font-family: sans-serif;
+  min-height: 100vh;   /* 滿螢幕高度，但 padding 不會溢出 */
+  display: flex;
+  justify-content: center;  /* 水平置中 */
+  align-items: center;      /* 垂直置中 */
+}
+
+h1 
+{
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+}
+
+html, body 
+{
+  margin: 0;
+  padding: 0;
+}
+
+header 
+{
+  position: fixed;         /* 固定在視窗頂端 */
+  top: 0;
+  left: 0;
+  width: 100%;             /* 滿版寬度 */
+  height: 60px;            /* 高度可自行調整 */
+  display: flex;           
+  justify-content: space-between; /* 左右兩端對齊 */
+  align-items: center;     /* 垂直置中 */
+  padding: 0 40px;         /* 兩邊內距 */
+  box-sizing: border-box;
+  z-index: 1000;           /* 確保蓋在最上層 */
+}
+
+.logo 
+{
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li 
+{
+  margin-left: 30px;       /* 間距 */
+}
+
+nav ul li a 
+{
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.content 
+{
+  padding-top: 60px;       /* 等同 header 的高度 */
+}
+
+.announcement {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.5rem;
+  z-index: 1000;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 用 padding-top 推開，避免被 fixed 把內容擋住 */
+  padding-top: 60px;       /* ≈ .announcement 的 total height */
+  height: calc(100vh - 60px);
+  background-color: #333;
+}
+
+
+/* 社群圖示連結 */
+.icon-link 
+{
+  display: inline-block;       /* 讓整個 <a> 變成行內區塊，方便 margin/padding */
+  margin: 0 10px;              /* 左右間距 */
+  transition: transform 0.2s;   /* 滑鼠經過時加點動畫 */
+}
+
+.icon-link img 
+{
+  width: 48px;                 /* 固定寬度，也可以用 height 自動等比 */
+  height: auto;
+  display: block;              /* 讓 <img> 本身不留底部空隙 */
+}
+
+.text-center 
+{
+  text-align: center;
+}
+
+.profile 
+{
+  text-align: center;        /* 置中整個區塊內容 */
+  padding: 40px 0;
+}
+
+.profile .social img 
+{
+  width: 48px;
+  margin: 0 8px;
+}
+
+.profile-container 
+{
+  display: flex;
+  align-items: center;
+  gap: 40px;                   /* 預留左右間距 */
+}
+
+.profile-image 
+{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+    /* 文字區塊 */
+.profile-info h1 
+{
+  margin: 0;
+  font-size: 3rem;
+}
+
+.profile-info p 
+{
+  margin: 8px 0 20px;
+  font-size: 1.2rem;
+  color: #aaa;
+}
