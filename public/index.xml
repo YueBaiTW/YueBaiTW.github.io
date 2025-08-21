@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YueBaiTW&#39;s Web</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on YueBaiTW&#39;s Web</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 21 Aug 2025 22:20:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇文章</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Thu, 21 Aug 2025 22:20:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;大家好&#34;&gt;大家好！&lt;/h2&gt;&#xA;&lt;p&gt;這是我的第一篇文章，使用 &lt;strong&gt;Hugo&lt;/strong&gt; 和 &lt;strong&gt;Ficurinia&lt;/strong&gt; 佈景主題建立。&lt;/p&gt;&#xA;&lt;p&gt;感覺真是太棒了！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>關於我</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 21 Aug 2025 22:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;嗨我是-yuebaitw&#34;&gt;嗨，我是 YueBaiTW&lt;/h2&gt;&#xA;&lt;p&gt;歡迎來到我的個人網站！&lt;/p&gt;&#xA;&lt;p&gt;這是一個我用來紀錄技術筆記、分享生活點滴，以及探索新事物的地方。&lt;/p&gt;&#xA;&lt;h3 id=&#34;我的興趣&#34;&gt;我的興趣&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;寫程式&lt;/li&gt;&#xA;&lt;li&gt;閱讀&lt;/li&gt;&#xA;&lt;li&gt;聽音樂&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;你可以在 &lt;a href=&#34;https://github.com/YueBaiTW&#34;&gt;GitHub&lt;/a&gt; 上找到我。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

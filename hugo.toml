@@ -1,0 +1,58 @@
+# --- Hugo 基礎設定 ---
+baseURL = "https://YueBaiTW.github.io/"
+languageCode = "zh-TW"
+title = "YueBaiTW's Web"
+theme = "hello-friend-ng"
+
+[pagination]
+  pagerSize = 5
+
+# --- 網站選單設定 ---
+[menu]
+  [[menu.main]]
+    identifier = "Posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 10
+  [[menu.main]]
+    identifier = "Tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 20
+  [[menu.main]]
+    identifier = "About"
+    name = "About"
+    url = "/about"
+    weight = 30
+  [[menu.main]]
+    identifier = "Categories"
+    name = "Categories"
+    url = "/categories"
+    weight = 30
+
+# --- Hello Friend NG 佈景主題專屬設定 ---
+[params]
+  # 作者名稱
+  author = "YueBaiTW的拼裝屋"
+
+  # 首頁標題下方的副標題
+  homeSubtitle = "不想學網頁三件套產生的地方"
+
+  # 如果你想在左上角放 Logo，可以取消註解並修改路徑
+  [params.logo]
+    logoText = "$ rm YueBaiTW"
+    logoHomeLink = "/"
+
+  # 社群媒體連結設定 (範例)
+  # 你可以取消註解並新增你自己的連結
+  [[params.social]]
+     name = "github"
+     url = "https://github.com/YueBaiTW"
+  [[params.social]]
+     name = "discord"
+     url = "https://twitter.com/"
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    series = "series"
