@@ -1,6 +1,6 @@
 # --- Hugo 基礎設定 ---
 baseURL = "https://YueBaiTW.github.io/"
-languageCode = "zh-TW"
+languageCode = "zh-tw"
 title = "YueBaiTW's Web"
 theme = "hello-friend-ng"
 
