@@ -41,7 +41,7 @@ theme = "hello-friend-ng"
   # 如果你想在左上角放 Logo，可以取消註解並修改路徑
   [params.logo]
     logoText = "$ rm YueBaiTW"
-    logoHomeLink = "/"
+    # logoHomeLink = "/"
 
   # 社群媒體連結設定 (範例)
   # 你可以取消註解並新增你自己的連結
