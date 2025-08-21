@@ -49,7 +49,7 @@ theme = "hello-friend-ng"
      url = "https://github.com/YueBaiTW"
   [[params.social]]
      name = "discord"
-     url = https://discord.com/"
+     url = "https://discord.com/"
 
 [taxonomies]
     category = "categories"
