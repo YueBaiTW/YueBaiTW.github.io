@@ -55,3 +55,6 @@ theme = "hello-friend-ng"
     category = "categories"
     tag = "tags"
     series = "series"
+
+[permalinks]
+    posts = "/posts/:slug/"
