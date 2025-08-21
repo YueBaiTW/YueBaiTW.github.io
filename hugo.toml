@@ -5,7 +5,7 @@ title = "YueBaiTW's Web"
 theme = "hello-friend-ng"
 
 [pagination]
-  pagerSize = 5
+  pagerSize = 10
 
 # --- 網站選單設定 ---
 [menu]
