@@ -1,11 +1,16 @@
 # --- Hugo 基礎設定 ---
 baseURL = "https://YueBaiTW.github.io/"
-languageCode = "zh-tw"
+defaultContentLanguage = "zh-tw"
 title = "YueBaiTW's Web"
 theme = "hello-friend-ng"
 
 [pagination]
   pagerSize = 10
+
+[languages]
+  [languages.zh-tw]
+    languageCode = "zh-tw"
+    languageName = "繁體中文"
 
 # --- 網站選單設定 ---
 [menu]
