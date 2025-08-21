@@ -7,6 +7,11 @@ theme = "hello-friend-ng"
 [pagination]
   pagerSize = 10
 
+[languages]
+  [languages.zh-tw]
+    languageCode = "zh-tw"
+    languageName = "繁體中文"
+
 # --- 網站選單設定 ---
 [menu]
   [[menu.main]]
