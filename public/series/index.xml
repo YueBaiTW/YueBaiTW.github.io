@@ -5,7 +5,7 @@
     <link>http://localhost:1313/series/</link>
     <description>Recent content in Series on YueBaiTW&#39;s Web</description>
     <generator>Hugo</generator>
-    <language>zh-TW</language>
+    <language>zh-tw</language>
     <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
